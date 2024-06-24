@@ -2,7 +2,7 @@ import pg from 'pg';
 import dotenv from 'dotenv';
 
 // CARGANDO LAS VARIABLES DE ENTORNO DESDE .env
-dotenv.config({ path: './.env' }); // Asegúrate de que la ruta sea correcta
+dotenv.config({ path: './.env' });
 
 const { DB_HOST, DB_USER, DB_PASSWORD, DB_NAME } = process.env;
 
